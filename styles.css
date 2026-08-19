@@ -1,16 +1,26 @@
 body{
+    font-family: Comic Sans MS, cursive, sans-serif;
     margin:0;
-    background-color: #1d3557;
+    background-color: #44BBA4;
     display:flex;
     flex-direction: column;
     height: 100vh;
 }
 header{
-    background-color:#457b9d;
-    padding: 10px;
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:24px;
+    z-index:100;
+    }
+nav{
+    display:flex;
+    gap:24px;
 }
 h1{
-    color: lightpink ;
+    color:maroon;
     margin-top: 0;
 }
 a{
@@ -27,7 +37,7 @@ a:hover{
     color:white;
 }
 .card{
-    background-color:#A8DADC ;
+    background-color:#FFBE86 ;
     width:400px;
     padding:5px;
     margin-top:8px;
@@ -39,7 +49,7 @@ h2{
 }
 footer p{
     text-align: center;
-    color:gold;
+    color:black;
 }
 .box{
     display:flex;
@@ -51,5 +61,5 @@ main{
     flex: 1;
 }
 footer{
-    background-color: #457b9d;
+    background-color: plum;
 }
