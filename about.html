@@ -3,40 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About Gabriel</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Gabriel's About</h1>
+        <a class="logo" href="index.html" aria-label="Gabriel Musyoki — Home">
+            <span class="logo-mark">GM</span>
+            <span class="logo-name">Gabriel Musyoki</span>
+        </a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Project</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="projects.html">Projects</a>
         </nav>
     </header>
     <main>
-        <section>
-            <div class="box">
-          <div class="card">
-                <h2>Description</h2>
-                <p> I am a courageous and hard working person who tries his best in everything he does.</p>
-                <p>I am also an optimistic person looking at the bright side of thingd.</p>
-          </div>
-          <div class="card">
-            <h2>Hobbies</h2>
-            <ol>
-                <li>Playing football</li>
-                <li>Reading books</li>
-                <li>Playing video games</li>
-                <li>Watching movies/tv shows</li>
-            </ol>
-          </div>
-          </div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY9hop8ADpbZL-6Hnxw6jSDRt89Ui_YG6zNk5XWIwovQ&s=10" width="332px" alt="Image of playing video games">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFT_sH1qi_pQcTS50DKukGHcPgW1MRP8DLIH-y0fFJQ&s=10" width="332px" alt="Image of playing football">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRykQXDZwoDVlckRMDyuXMd7oVSeuKlFLfnjRseBKFTVQ&s=10" width="332px" alt="Image of someone reading a book">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVBCn3vG-I0AjFyta4QfyAg4zdwGs1NSp6_bIm_ORDnQ&s=10" width="332px" alt="Image of people watching a movie">
+        <section class="about-intro">
+            <div class="photo-placeholder small" role="img" aria-label="Photo of Gabriel Musyoki coming soon">
+                Add your photo here — drop gabriel.jpg in this folder.
+            </div>
+            <div>
+                <h1>About me</h1>
+                <p>I am courageous and hard-working. I try my best in everything I do, and I look for the bright side when things get tough.</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="card">
+                <h2>How I show up</h2>
+                <p>I give full effort, stay optimistic, and keep going until the work feels right.</p>
+            </div>
+            <div class="card">
+                <h2>Hobbies</h2>
+                <ol>
+                    <li>Playing football</li>
+                    <li>Reading books</li>
+                    <li>Playing video games</li>
+                    <li>Watching movies and TV shows</li>
+                </ol>
+            </div>
+        </section>
+        <section class="hobby-grid">
+            <figure class="hobby-card">
+                <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Football on a grass pitch">
+                <p>Football</p>
+            </figure>
+            <figure class="hobby-card">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Open book ready to read">
+                <p>Reading</p>
+            </figure>
+            <figure class="hobby-card">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Video game controller">
+                <p>Gaming</p>
+            </figure>
+            <figure class="hobby-card">
+                <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Cinema seats facing a movie screen">
+                <p>Movies</p>
+            </figure>
         </section>
     </main>
     <footer>

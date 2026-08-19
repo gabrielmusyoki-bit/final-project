@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Portfolio</title>
+    <title>Gabriel Musyoki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Gabriel's Homepage</h1>
+        <a class="logo" href="index.html" aria-label="Gabriel Musyoki — Home">
+            <span class="logo-mark">GM</span>
+            <span class="logo-name">Gabriel Musyoki</span>
+        </a>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" aria-current="page">Home</a>
             <a href="about.html">About</a>
-            <a href="projects.html">Project</a>
+            <a href="projects.html">Projects</a>
         </nav>
     </header>
     <main>
-        <section>
-          <div>
-            <div>
-                <h2>Hi, I am Gabriel Musyoki</h2>
-                <p> Building this website used a lot of help from my teacher, youtube and also apps like coolors.io and flexbox froggy</p>
-                <p>I had a bit of trouble with the applications like grid and flex.</p>
+        <section class="hero">
+            <div class="photo-placeholder" role="img" aria-label="Photo of Gabriel Musyoki coming soon">
+                Add your photo here — drop gabriel.jpg in this folder.
             </div>
-            <div>
-                <h2>Problems</h2>
-                <ol>
-                    <li>I barely knew how to do the last level of flex.</li>
-                    <li>The grid patterns are very challenging to me</li>
-                </ol>
+            <div class="hero-copy">
+                <h1>Hi, I’m Gabriel Musyoki.</h1>
+                <p class="tagline">Footballer in the making. Engineer if the pitch doesn’t call. Always aiming to love the work.</p>
             </div>
-            <div>
-                <h3>Aspirations</h3>
-                <p>I want to become a great footballer like a household name that people normally bring up.</p>
-                <p>I that doesn't work out I would like to be a great engineer where people would want me to work for them</p>
-                <p>But last of all I just want to be able to be happy with what I do.</p>
+        </section>
+        <section class="box">
+            <div class="card">
+                <h2>On the pitch</h2>
+                <p>I want my name to be the one people bring up when they talk about great footballers.</p>
             </div>
-          </div>
+            <div class="card">
+                <h2>At the desk</h2>
+                <p>If football isn’t the path, I’ll be the engineer people ask for — someone they trust to build things well.</p>
+            </div>
+            <div class="card">
+                <h2>The real goal</h2>
+                <p>Whatever I do, I want to be happy doing it.</p>
+            </div>
         </section>
     </main>
     <footer>
