@@ -1,285 +1,285 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto, system-ui, sans-serif;
-    margin: 0;
-    background-color: #121212;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    line-height: 1.6;
+  font-family: Roboto, system-ui, sans-serif;
+  margin: 0;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.6;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #0a0a0a;
-    z-index: 100;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0a0a0a;
+  z-index: 100;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    text-decoration: none;
-    color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .logo-mark {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background-color: #FFCC00;
-    color: #121212;
-    font-family: Oswald, sans-serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ffcc00;
+  color: #121212;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
 }
 
 .logo-name {
-    font-family: Oswald, sans-serif;
-    font-weight: 500;
-    font-size: 1.25rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 nav {
-    display: flex;
-    gap: 8px;
+  display: flex;
+  gap: 8px;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 1rem;
-    display: inline-block;
-    color: #FFFFFF;
-    padding: 0.5rem 0.85rem;
-    border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.5rem 0.85rem;
+  border-radius: 6px;
 }
 
 nav a:hover,
 nav a[aria-current="page"] {
-    background-color: #FFCC00;
-    color: #121212;
+  background-color: #ffcc00;
+  color: #121212;
 }
 
 h1,
 h2,
 h3 {
-    font-family: Oswald, sans-serif;
-    font-weight: 700;
-    line-height: 1.15;
-    margin-top: 0;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 h1 {
-    font-size: 2.4rem;
-    margin-bottom: 0.75rem;
+  font-size: 2.4rem;
+  margin-bottom: 0.75rem;
 }
 
 h2 {
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
-    margin: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 
 p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 main {
-    flex: 1;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem;
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-copy {
-    flex: 1;
+  flex: 1;
 }
 
 .tagline {
-    font-size: 1.15rem;
-    margin-bottom: 0;
+  font-size: 1.15rem;
+  margin-bottom: 0;
 }
 
 .photo-placeholder {
-    flex-shrink: 0;
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    border: 3px dashed #FFCC00;
-    background-color: #1a1a1a;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    padding: 0;
-    color: #FFFFFF;
-    font-size: 0.9rem;
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 3px dashed #ffcc00;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  color: #ffffff;
+  font-size: 0.9rem;
 }
 
 .photo-placeholder img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 58% 32%;
-    border-radius: 50%;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 58% 32%;
+  border-radius: 50%;
+  display: block;
 }
 
 .photo-placeholder.small {
-    width: 160px;
-    height: 160px;
-    font-size: 0.8rem;
+  width: 160px;
+  height: 160px;
+  font-size: 0.8rem;
 }
 
 .about-intro {
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .card {
-    background-color: #1a1a1a;
-    flex: 1 1 280px;
-    padding: 1.5rem;
-    border-radius: 10px;
-    border: 2px solid #FFCC00;
+  background-color: #1a1a1a;
+  flex: 1 1 280px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #ffcc00;
 }
 
 .card p,
 .card ol {
-    margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .card ol {
-    padding-left: 1.25rem;
-    margin-top: 0;
+  padding-left: 1.25rem;
+  margin-top: 0;
 }
 
 .card ol:last-child,
 .card p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hobby-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
 }
 
 .hobby-card {
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 2px solid #FFCC00;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #ffcc00;
 }
 
 .hobby-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: fill;
+  display: block;
 }
 
 .hobby-card p {
-    padding: 0.85rem 1rem;
-    margin: 0;
-    font-weight: 500;
+  padding: 0.85rem 1rem;
+  margin: 0;
+  font-weight: 500;
 }
 
 .projects-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .project-card h2 {
-    color: #FFCC00;
+  color: #ffcc00;
 }
 
 .project-photo {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    object-position: center 30%;
-    border-radius: 8px;
-    display: block;
-    margin: 0 0 1rem;
+  width: 100%;
+  height: 220px;
+  object-fit: fill;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  display: block;
+  margin: 0 0 1rem;
 }
 
 .project-meta {
-    font-size: 0.9rem;
-    color: #FFCC00;
-    margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: #ffcc00;
+  margin-bottom: 0.75rem;
 }
 
 footer {
-    background-color: #0a0a0a;
-    padding: 1.25rem 2rem;
+  background-color: #0a0a0a;
+  padding: 1.25rem 2rem;
 }
 
 footer p {
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
 }
 
 @media (max-width: 700px) {
-    header {
-        flex-direction: column;
-        gap: 0.75rem;
-        padding: 1rem;
-    }
+  header {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
 
-    .hero,
-    .about-intro {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .hero,
+  .about-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .hobby-grid {
-        grid-template-columns: 1fr;
-    }
+  .hobby-grid {
+    grid-template-columns: 1fr;
+  }
 }
